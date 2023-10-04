@@ -1,0 +1,213 @@
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+    order: 4;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+#navbarNav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+#about-me {
+    padding: 50px;
+    background-color: #96d1ef;
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 24px;
+}
+
+#about-me p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#hero h1{
+
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+#hero p{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+#education {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+#education h2 {
+    font-size: 24px;
+    color:white;
+}
+
+#portfolio{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#Skills{
+ 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+#Skills h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+    color:white;
+    padding: 50px;
+}
+
+
+
+/* Add your custom CSS styles here */
+
+/* Card styling */
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: rgb(81, 183, 184);
+    border: 2px solid #05d9ff; 
+
+}
+
+.custom-card:hover {
+    background-color: #00fbff; /* Change background color on hover */
+    transform: scale(1.05); /* Zoom in on hover */
+    transition: transform 0.2s, background-color 0.2s; /* Smooth transition */
+}
+
+
+
+#projects {
+    padding: 50px;
+    text-align: center;
+}
+
+#projects h2 {
+    padding:50px;
+   
+    color:white; /* Custom text color */
+    
+}
+
+#certificate h2{
+    padding:50px;
+    text-align: center;
+    color:white;
+}
+.certificate .c1{
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: rgb(160, 232, 245);
+    border: 2px solid #0586ff; 
+
+}
+
+#contact label{
+
+    color:grey;
+}
+
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.form-group{
+    text-decoration-color: rgb(252, 250, 250);
+}
+
+.py-5 .text-center
+{
+    color: aliceblue;
+}
+
+
